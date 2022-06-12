@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS + Typescript 템플릿
 
-## Getting Started
+## 템플릿 기능 소개
 
-First, run the development server:
+본 템플릿은 아래의 기술 스택들을 포함하고 있습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
+- NextJS
+- TypeScript
+- ESLint & Prettier (저장 시 포맷 자동 적용)
+- Husky(커밋 전 포맷 체크)
+- Emotion
+
+템플릿에 대한 자세한 설명은 본 포스트를 참고하시길 바랍니다.
+
+## Node 버전
+
+`node 16.13.1`
+
+## 실행 방법
+
+### npm 모듈 설치
+
+```tsx
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 개발환경에서 실행
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```tsx
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 포맷 관련 명령어
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run check-types # Typescript에 대해 타이핑 체크
 
-## Learn More
+npm run check-format # prettier로 포맷팅 체크
 
-To learn more about Next.js, take a look at the following resources:
+npm run check-lint  # eslint로 포맷팅 체크
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run format  # prettier로 포맷팅 수정
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm run test-all # 앞의 4개명령어 + build 실행
 
-## Deploy on Vercel
+npm run prepare # husky 설정 적용
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 브랜치 설명
