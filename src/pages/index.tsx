@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Title from "../components/Title";
-import { Container } from "../styles/home";
+import Title from "@components/Title";
+import { Container } from "@styles/home";
 
 export default function Home() {
   return (

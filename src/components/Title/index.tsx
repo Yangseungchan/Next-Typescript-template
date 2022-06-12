@@ -1,4 +1,4 @@
-import { TitleText } from "./styles";
+import { TitleText } from "@components/Title/styles";
 
 interface TitleProps {
   title: string;
