@@ -10,7 +10,7 @@
 - `Emotion`
 - `Husky`(커밋 전 포맷 체크)
 
-템플릿에 대한 자세한 설명은 본 [포스트](https://velog.io/@seungchan__y/NextJS-Typescript-%ED%85%9C%ED%94%8C%EB%A6%BF)를 참고하시길 바랍니다.
+템플릿에 대한 자세한 설명은 본 [포스트](https://velog.io/@seungchan__y/NextJS-Typescript-Template)를 참고하시길 바랍니다.
 
 ## Node 버전
 
