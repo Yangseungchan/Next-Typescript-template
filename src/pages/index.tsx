@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Title from "@components/Title";
 import { Container } from "@styles/home";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Title title="NextJS TypeScript Template" />
+      <Image src="/vercel.svg" alt="vercel" width="100px" height="100px" />
     </Container>
   );
 }
