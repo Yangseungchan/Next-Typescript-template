@@ -8,6 +8,8 @@
 - `TypeScript`
 - `ESLint & Prettier` (+ 저장 시 포맷 자동 적용)
 - `Emotion`
+  - `Global Styling`
+  - `Custom Theme`
 - `Husky`(커밋 전 포맷 체크)
 
 템플릿에 대한 자세한 설명은 본 [포스트](https://velog.io/@seungchan__y/NextJS-Typescript-Template)를 참고하시길 바랍니다.
