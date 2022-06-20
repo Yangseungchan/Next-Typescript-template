@@ -11,6 +11,7 @@
   - `Global Styling`
   - `Custom Theme`
 - `Husky`(커밋 전 포맷 체크)
+- `MUI` (MUI v5; mui 브랜치에만 있음)
 
 템플릿에 대한 자세한 설명은 본 [포스트](https://velog.io/@seungchan__y/NextJS-Typescript-Template)를 참고하시길 바랍니다.
 
@@ -67,3 +68,4 @@ npm run prepare # husky 설정 적용
 - `husky` - Husky 부분까지 적용된 부분입니다.
 - `emotion` - Emotion 부분까지 적용된 부분입니다.
 - `directory` - Directory 구조 변경 부분까지 적용된 부분입니다.
+- `mui` - Material UI까지 추가된 부분입니다.
