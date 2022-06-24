@@ -21,16 +21,8 @@
     "strict": true,
     "target": "es2018",
     "incremental": true,
-    "baseUrl": ".",
-    "paths": {
-      "@pages/*": ["src/pages/*"],
-      "@styles/*": ["src/styles/*"],
-      "@components/*": ["src/components/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@layout/*": ["src/layout/*"],
-      "@utils/*": ["src/utils/*"],
-      "@types/*": ["src/types/*"]
-    }
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": "src"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

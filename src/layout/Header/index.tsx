@@ -1,4 +1,4 @@
-import { HeaderLayout } from "@layout/Header/styles";
+import { HeaderLayout } from "layout/Header/styles";
 
 const Header = () => {
   return <HeaderLayout>Headeer</HeaderLayout>;
