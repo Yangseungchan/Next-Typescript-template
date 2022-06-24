@@ -1,7 +1,5 @@
-import { HeaderLayout } from "@layout/Header/styles";
+import { HeaderLayout } from "layout/Header/styles";
 
-const Header = () => {
+export default function Header() {
   return <HeaderLayout>Headeer</HeaderLayout>;
-};
-
-export default Header;
+}
