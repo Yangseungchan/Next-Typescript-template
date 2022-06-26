@@ -14,6 +14,11 @@
 
 템플릿에 대한 자세한 설명은 본 [포스트](https://velog.io/@seungchan__y/NextJS-Typescript-Template)를 참고하시길 바랍니다.
 
+## ⭐️ Commit 전에 husky가 적용안되는 현상
+
+해당 레포지토리를 clone한 뒤 `commit`을 하려고 하면 husky가 실행되지 않는 버그가 있습니다.
+이러한 현상이 있다면 프로젝트 루트 폴더의 `.husky` 폴더를 지우고 [포스트](https://velog.io/@seungchan__y/NextJS-Typescript-Template#%F0%9F%A6%8A-husky) 부분을 다시 진행하길 바랍니다.
+
 ## 🍏 Node 버전
 
 `node 16.13.1`
